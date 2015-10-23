@@ -1,0 +1,66 @@
+  .chart {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+  }
+
+  .axis path, .axis line {
+    fill: none;
+    stroke: purple;
+    shape-rendering: crispEdges;
+  }
+
+/*  .bar {
+    fill: steelblue;
+  }
+*/
+  div.bar {
+    display: inline-block;
+    width: 20px;
+    height: 75px;   /* We'll override this later */
+    background-color: teal;
+    margin-right: 2px;
+}
+
+.pos {
+  margin-left: 100px;
+  position: relative;
+}
+
+.rabbit {
+  margin-left: 93px;
+
+  position: relative;
+  display: inline-block;
+}
+
+.right {
+  margin-left: 1300px;
+  position: fixed;
+  top: 400px;
+
+}
+
+.right1 {
+  margin-left: 1300px;
+  position: fixed;
+  top: 250px;
+
+}
+
+.right2 {
+  margin-left: 1300px;
+  position: fixed;
+  top: 100px;
+
+}
+
+.hey {
+  color: red;
+  font-family: arial;
+  font-weight: 10px;
+}
+
+/*.where {
+  margin: 25px;
+  z-index: -1;
+}*/
